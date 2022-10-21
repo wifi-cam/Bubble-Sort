@@ -3,6 +3,7 @@
 def bubble_sort(arr)
   
   not_sorted = true
+  #Once array is fully sorted the loop will close itself
   while not_sorted
     i = 0
     not_sorted = false
